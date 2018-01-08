@@ -2,11 +2,11 @@
 
 JavaScript and JXS code linting with Vacasa (Boise) standard styles.
 
-Industry standard for this sort of thing is to start with [Airbnb's styles](https://github.com/airbnb/javascript), and adds rule overrides for things we do differently.  They tend to be pretty heavy handed with consistency, and we are also interesting in consistency between JavaScript and Python, so there are a few things we will do differently.
+Industry standard for this sort of thing is to start with [Airbnb's styles](https://github.com/airbnb/javascript), and adds rule overrides for things we do differently.  They tend to be pretty heavy handed and we are also interested in consistency between JavaScript and Python, so there are a few things we will do differently.
 
 ## Installing and Using
 
-Git clone the repo, then `npm install` the required eslint packages.  You could probably also install all those things globally and you'd just need the .eslintrc file here.  It is important that everything lives at the same scope, either all global or all local.
+Git clone the repo, then `npm install` the required eslint packages.  You could probably install all those things globally instead and you'd just need the .eslintrc file here.  It is important that everything lives at the same scope, either all global or all local.
 
 IntelliJ does a good job of automatically running inspections.  Open the plugin at Languages & Frameworks, JavaScript, Code Quality Tools, ESLint.  If its not there, install the plugin.  Then set these fields:
 * Click the Enable toggle.
