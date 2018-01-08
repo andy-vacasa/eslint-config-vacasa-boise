@@ -1,0 +1,39 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": ["babel"],
+  "rules": {
+    "indent": ["warn", 4],
+    "react/jsx-indent": ["warn", 4],
+    "react/jsx-indent-props": ["warn", 4],
+    "spaced-comment": "off",
+    "quotes":"off",
+    "jsx-quotes": "off",
+    "comma-dangle":"off",
+    "no-mixed-operators": "off",
+    "prefer-destructuring": "off",
+    "prefer-template": "off",
+    "camelcase": "off",
+    "object-shorthand": "off",
+    "no-restricted-syntax": [
+      "error",
+      {
+        "selector": "ForInStatement",
+        "message": "for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array."
+      },
+      {
+        "selector": "LabeledStatement",
+        "message": "Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand."
+      },
+      {
+        "selector": "WithStatement",
+        "message": "`with` is disallowed in strict mode because it makes code impossible to predict and optimize."
+      }
+    ],
+    "react/prefer-stateless-function": "off",
+    "react/jsx-wrap-multilines": "off",
+    "react/jsx-closing-bracket-location": ["warn", "line-aligned"],
+    "react/jsx-closing-tag-location": ["off", "line-aligned"],
+    "babel/semi": "error"
+  }
+}
