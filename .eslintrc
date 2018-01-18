@@ -2,6 +2,12 @@
   "extends": "airbnb",
   "parser": "babel-eslint",
   "plugins": ["babel"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "jquery": true
+  },
   "rules": {
     "indent": ["warn", 4],
     "react/jsx-indent": ["warn", 4],
