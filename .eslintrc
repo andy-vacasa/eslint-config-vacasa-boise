@@ -9,7 +9,10 @@
     "jquery": true
   },
   "rules": {
-    "indent": ["warn", 4],
+    "indent": [
+      "warn", 4,
+      {"SwitchCase": 1}
+    ],
     "react/jsx-indent": ["warn", 4],
     "react/jsx-indent-props": ["warn", 4],
     "spaced-comment": "off",

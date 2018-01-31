@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vacasa",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lint configs for javascript and jsx",
   "main": "index.js",
   "dependencies": {
