@@ -40,6 +40,7 @@
       }
     ],
     "react/prefer-stateless-function": "off",
+    "react/self-closing-comp": "off",
     "react/jsx-wrap-multilines": "off",
     "react/jsx-closing-bracket-location": ["warn", "line-aligned"],
     "react/jsx-closing-tag-location": ["off", "line-aligned"],
