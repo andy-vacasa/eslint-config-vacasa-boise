@@ -8,6 +8,12 @@
     "jest": true,
     "jquery": true
   },
+  "globals": {
+    "Vacasa": true,
+    "window": false,
+    "document": false,
+    "$": false
+  },
   "rules": {
     "indent": ["warn", 4, { "SwitchCase": 1 }],
     "react/jsx-indent": ["warn", 4],
